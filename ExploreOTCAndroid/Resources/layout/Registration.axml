@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#EAEDED">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="Your School"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/schoolSpinner" />
+            <TextView
+                android:text="First Name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="40.5dp"
+                android:id="@+id/firstName"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:text="Last Name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="40.5dp"
+                android:id="@+id/lastName"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:text="E-mail"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="40.5dp"
+                android:id="@+id/email"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:text="Phone Number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/phoneNo" />
+            <TextView
+                android:text="Inital Impression of OTC"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:paddingLeft="85dp" />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar1"
+                android:numStars="5"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:stepSize="0.5" />
+            <Button
+                android:text="SUBMIT"
+                android:layout_width="match_parent"
+                android:layout_height="68.0dp"
+                android:id="@+id/button1"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="5dp"
+                android:linksClickable="true"
+                android:bufferType="normal"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:editable="false"
+                android:paddingLeft="0dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20px">
+            <TextView
+                android:text="Event Survey"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="Thank you for attending the ExploreOTC event.  Please tell us more about your future education and career goals."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_marginBottom="20px" />
+            <TextView
+                android:text="What are your future career goals? (Select all that apply)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <CheckBox
+                android:text="Military"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goalsMilitary" />
+            <CheckBox
+                android:text="Associates Degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goalsAAS" />
+            <CheckBox
+                android:text="Bachelors Degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goalsBA" />
+            <CheckBox
+                android:text="Not planning on attending college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goalsNoPlan" />
+            <CheckBox
+                android:text="Don't know"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goalsDont"
+                android:layout_marginBottom="20px" />
+            <TextView
+                android:text="Did this event increase your interest in attending OTC?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/interestGroup">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:id="@+id/interestYes" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/interestNo" />
+            </RadioGroup>
+            <TextView
+                android:text="Are you interested in attending during High School for a full day?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="20px" />
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fulldayGroup">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:id="@+id/fulldayYes" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/fulldayNo" />
+            </RadioGroup>
+            <TextView
+                android:text="Are you interested in attending during High School for a half day?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="20px" />
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/halfdayGroup">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:id="@+id/halfdayYes" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/halfdayNo" />
+            </RadioGroup>
+            <TextView
+                android:text="Are you interested in attending OTC after completing High School?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="20px" />
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/afterGroup">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:id="@+id/afterYes" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:id="@+id/afterNo" />
+            </RadioGroup>
+            <TextView
+                android:text="What did you think of the ExploreOTC event?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventRating"
+                android:numStars="5"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:stepSize="0.5" />
+            <TextView
+                android:text="Comments?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/commentsBox" />
+            <Button
+                android:text="SUBMIT"
+                android:layout_width="match_parent"
+                android:layout_height="68.0dp"
+                android:id="@+id/surveySubmit"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="5dp"
+                android:linksClickable="true"
+                android:bufferType="normal"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:editable="false"
+                android:paddingLeft="0dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

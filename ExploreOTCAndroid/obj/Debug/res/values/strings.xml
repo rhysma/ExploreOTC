@@ -1,0 +1,1 @@
+<resources><string name="app_name">Explore OTC</string><string name="school_prompt">Choose a school</string><string-array name="school_array"><item>Mercury</item><item>Venus</item><item>Earth</item><item>Mars</item><item>Jupiter</item><item>Saturn</item><item>Uranus</item><item>Neptune</item></string-array></resources>

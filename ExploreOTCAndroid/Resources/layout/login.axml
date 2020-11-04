@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue1">
+    <TextView
+        android:text="LOGIN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="0.0dp"
+        android:paddingLeft="100dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:ellipsize="none"
+        android:textColor="@android:color/background_light"
+        android:textDirection="locale"
+        android:textSize="@android:dimen/notification_large_icon_height" />
+    <TextView
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="40.5dp"
+        android:id="@+id/editText1"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+    <TextView
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40.5dp"
+        android:id="@+id/editText1"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:password="true" />
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/button1"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="60dp"
+        android:linksClickable="true"
+        android:bufferType="normal"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:editable="false"
+        android:paddingLeft="0dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"
+        android:paddingLeft="155dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
